@@ -1,0 +1,23 @@
+{
+  "name": "funzioni-java-script-3bi-fr",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federicorizz/java-script-3bi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/federicorizz/java-script-3bi/issues"
+  },
+  "homepage": "https://github.com/federicorizz/java-script-3bi#readme",
+  "description": "",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
