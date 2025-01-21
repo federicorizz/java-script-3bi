@@ -1,5 +1,14 @@
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
+const $ = document.querySelector;
+const $$ = document.querySelectorAll;
+
+function test(){
+    console.log('test');
+}
+
+const t = test;
+
+t();
+test();
 
 const paragrafo = document.querySelector('p');
 
