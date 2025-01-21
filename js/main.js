@@ -5,6 +5,9 @@ const paragrafo = document.querySelector('p');
 
 console.log(paragrafo);
 
+const paragrafi = document.querySelectorAll('p');
+console.log(paragrafi);
+
 
 
 
