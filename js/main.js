@@ -3,6 +3,23 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
+var myParagrafo = document.getElementById("paragrafo");
+myParagrafo.onclick = function (e) {
+    const lista = document.querySelector('#lista');
+
+    const nuovoElemento = document.createElement('li');
+
+    nuovoElemento.textContent = 'Tre';
+
+    console.log(nuovoElemento);
+
+    lista.appendChild(nuovoElemento);
+};
+
+
+
+
+
 function test() {
     console.log('test');
 }
@@ -92,25 +109,17 @@ render(myDom, rootElement);
 const paragrafi = document.querySelectorAll('p');
 console.log(paragrafi);
 
-function contoAllaRovescia(num){
+function contoAllaRovescia(num) {
     console.log(num);
-    if(num === 0){
+    if (num === 0) {
         return;
     }
-    contoAllaRovescia(num-1);
+    contoAllaRovescia(num - 1);
 }
 
 
 
 
-const lista = document.querySelector('#lista');
 
-const nuovoElemento = document.createElement('li');
-
-nuovoElemento.textContent = 'Tre';
-
-console.log(nuovoElemento);
-
-lista.appendChild(nuovoElemento);
 
 
